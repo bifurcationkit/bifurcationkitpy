@@ -1,7 +1,9 @@
 # bifurcationkitpy
 
-diffeqpy is a package for computing bifurcation diagrams in Python. It utilizes
+`bifurcationkitpy` is a package for computing bifurcation diagrams in Python. It utilizes
 [BifurcationKit.jl](https://github.com/bifurcationkit/BifurcationKit.jl) for its core routines.
+
+> This package borrows most of its code from [diffeqpy](https://github.com/SciML/diffeqpy).
 
 ## Installation
 
