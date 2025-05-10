@@ -4,7 +4,7 @@ def readme():
     with open('README.md') as f:
         return f.read()
 
-setup(name='diffeqpy',
+setup(name='bifurcationkitpy',
       version='0.0.1',
       description='Computing bifurcation diagrams in Python',
       long_description=readme(),
@@ -18,7 +18,7 @@ setup(name='diffeqpy',
         'Topic :: Scientific/Engineering :: Mathematics',
         'Topic :: Scientific/Engineering :: Physics'
       ],
-      url='https://github.com/bifurcationkit/diffeqpy',
+      url='https://github.com/bifurcationkit/bifurcationkitpy',
       keywords='bifurcation continuation periodic orbits normal form',
       author='Romain Veltz',
       author_email='romain.veltz@inria.fr',
